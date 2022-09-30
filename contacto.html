@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <h2>Para mas recetas</h2>
+    <form action="https://formspree.io/f/xnqrvaeg"
+    method="POST">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" maxlength="20" placeholder="Juan" required size="30" required > <br>
+            <label for="Correo">Email</label>
+            <input type="email" name="Correo" placeholder="corre@ejemplo.com" required><br>
+            <label for="Telefono">Telefono</label>
+            <input type="telephone" name="Telefono" placeholder="00 12345678" min="8" max="10">
+            <h3>Selecciona el tipo de comida que te interesan</h3>
+            <select name="Tipo de comidas" id="">
+                <option value="Mexicana">Mexicana</option>
+                <option value="China">China</option>
+                <option value="Japonesa">Japonesa</option>
+                <option value="indú">Indú</option>
+                <option value="Comida Rapida">Comida rapida</option>
+            </select>
+            <h3>Sube tu receta</h3><br>
+            <input type="file"><br>
+            <input type="submit" value="Enviar"><br>
+            <input type="reset" value="Borrar">
+
+        </fieldset>
+       
+    </form>
+    <a href="index.html"><button><img src="Home.png" width="100" alt="imagen home"></button></a>
+</body>
+</html>
